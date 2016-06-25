@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<br>
+	<div class="jumbotron">
+		<h1 class="text-center">DOTA 2 Trivia</h1>
+	</div>
+
+	<a class="btn btn-primary" role="button" data-toggle="collapse" href="#triviaTable" aria-expanded="false" aria-controls="collapseExample">
+	  Link with href
+	</a>
+	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+	  Button with data-target
+	</button>
+	<div class="collapse" id="collapseExample">
+	  <div class="well">
+	    ...
+	  </div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-body">
+	 		<table class="table" id="triviaTable">
+	 			<tbody>
+	 				<tr>
+	 					<h4>Eating a mango instantly restores mana.</h4>
+						<div class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option1" autocomplete="off" checked> True
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off"> False
+						  </label>
+						</div>
+	 				</tr>
+	 				<tr>
+	 					<h4>Branches can be planted into the ground and then consumed using a tango.</h4>
+	 					<div class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option1" autocomplete="off" checked> True
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off"> False
+						  </label>
+						</div>
+	 				</tr>
+	 				<tr>
+	 					<h4>Sniper's ultimate cannot be disjointed.</h4>
+	 					<div class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option1" autocomplete="off" checked> True
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off"> False
+						  </label>
+						</div>
+	 				</tr>
+	 				<tr>
+	 					<h4>Sven is a melee strength hero.</h4>
+	 					<div class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option1" autocomplete="off" checked> True
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off"> False
+						  </label>
+						</div>
+	 				</tr>
+	 				<tr>
+	 					<h4>Buying a new BKB will reset it's duration and cooldown.</h4>
+	 					<div class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option1" autocomplete="off" checked> True
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off"> False
+						  </label>
+						</div>
+	 				</tr>
+	 				<tr>
+	 					<h4>Illusions can be used to attack Roshan.</h4>
+	 					<div class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option1" autocomplete="off" checked> True
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off"> False
+						  </label>
+						</div>
+	 				</tr>
+	 				<tr>
+	 					<h4>Hand of midas can be used on enemy creeps.</h4>
+	 					<div class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option1" autocomplete="off" checked> True
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off"> False
+						  </label>
+						</div>
+	 				</tr>
+	 				<tr>
+	 					<h4>What is Windrangers ultimate is called?</h4>
+	 					<div class="btn-group" role="group" aria-label="...">
+						  <button type="button" class="btn btn-default">Focus Fire</button>
+						  <button type="button" class="btn btn-default">Rapid Fire</button>
+						  <button type="button" class="btn btn-default">Fury Fire</button>
+						  <button type="button" class="btn btn-default">Scatter Fire</button>
+						</div>
+	 				</tr>
+	 				<tr>
+	 					<h4>Ancient Apparition has a global ultimate.</h4>
+	 					<div class="btn-group" role="group" aria-label="...">
+						  <button type="button" class="btn btn-default">True</button>
+						  <button type="button" class="btn btn-default">False</button>
+						  <button type="button" class="btn btn-default">False</button>
+						  <button type="button" class="btn btn-default">False</button>
+						</div>
+	 				</tr>
+	 				<tr>
+	 					<h4>You get bonus gold when you last hit a tower.</h4>
+	 					<div class="btn-group" role="group" aria-label="...">
+						  <button type="button" class="btn btn-default">True</button>
+						  <button type="button" class="btn btn-default">False</button>
+						  <button type="button" class="btn btn-default">False</button>
+						  <button type="button" class="btn btn-default">False</button>
+						</div>
+	 				</tr>
+	 			</tbody>
+	 		</table>
+	 	</div>
+ 	</div>
+</div>
+
+<script  type="text/javascript" src="assets/app.js"></script>
+
+</body>
+</html>
